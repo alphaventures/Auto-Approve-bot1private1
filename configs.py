@@ -6,7 +6,7 @@ class Config:
     BOT_TOKEN = getenv("5855874254:AAH_rUpg9PeeX-KTXZ4OD7ZTTrhyKJfeU0I")
     FSUB = getenv("approvebotfree")
     CHID = int(getenv("1732001513"))
-    SUDO = list(map(int, getenv("5216753212").split()))
+    SUDO = list(map(int, getenv("SUDO").split()))
     MONGO_URI = getenv("mongodb+srv://ankynoda:ankynoda@cluster.sc0egiu.mongodb.net/?retryWrites=true&w=majority", "")
     
 cfg = Config()
